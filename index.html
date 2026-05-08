@@ -3,32 +3,66 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>[Your Name] — [Your Title]</title>
-  <meta name="description" content="Personal site of [Your Name], [Your Title]." />
+  <title>Jay Lee Photography — Wedding Photographer</title>
+  <meta name="description" content="Jay Lee Photography — editorial wedding stories captured with heart and soft light." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
-    <a href="#" class="logo">[Your Name]</a>
+    <a href="#home" class="logo">Jay Lee Photography</a>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
   <main>
     <section class="hero" id="home">
-      <p class="eyebrow">Hello, I'm</p>
-      <h1>[Your Name]</h1>
-      <p class="tagline">[Your Title / Tagline]</p>
-      <p class="intro">[A short, single-sentence intro that draws the reader in.]</p>
+      <p class="eyebrow">Wedding Photography</p>
+      <h1>Timeless stories,<br />captured with heart.</h1>
+      <p class="tagline">Editorial wedding photography for couples who love a little romance and a lot of feeling.</p>
+      <a href="#contact" class="cta">Inquire</a>
     </section>
 
     <section class="about" id="about">
-      <h2>About</h2>
-      <p>[Your Bio — paragraph one. Talk about what you do, where you're based, and what you care about.]</p>
-      <p>[Your Bio — paragraph two. Mention a current focus, a recent project, or what you're learning.]</p>
+      <p class="section-eyebrow">About</p>
+      <h2>Hi, I'm Jay.</h2>
+      <p>I'm a wedding photographer based in [Your City], with a soft spot for golden light, candid laughter, and the in-between moments that make a wedding day feel like yours.</p>
+      <p>My work is documentary in spirit and editorial in finish — quiet portraits, lively reception frames, and the tiny details (your grandmother's pearls, the way they looked when you walked down the aisle) that turn into a story worth keeping.</p>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <p class="section-eyebrow">Selected Work</p>
+      <h2>A few favorite frames</h2>
+      <p class="gallery-intro">Replace these placeholders with your own photographs as your portfolio grows.</p>
+      <div class="grid">
+        <figure class="card"><div class="ph ph-1"></div><figcaption>Ceremony — Sonoma</figcaption></figure>
+        <figure class="card"><div class="ph ph-2"></div><figcaption>First Look — Big Sur</figcaption></figure>
+        <figure class="card"><div class="ph ph-3"></div><figcaption>Couple Portraits</figcaption></figure>
+        <figure class="card"><div class="ph ph-4"></div><figcaption>Reception Details</figcaption></figure>
+        <figure class="card"><div class="ph ph-5"></div><figcaption>Bridal Party</figcaption></figure>
+        <figure class="card"><div class="ph ph-6"></div><figcaption>Golden Hour</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="section-eyebrow">Inquire</p>
+      <h2>Let's tell your story.</h2>
+      <p>Now booking 2026–2027 weddings in [Your Region] and worldwide. I'd love to hear about your day.</p>
+      <p class="contact-links">
+        <a href="mailto:hello@jayleephotography.example">hello@jayleephotography.example</a>
+        <span class="dot">·</span>
+        <a href="https://instagram.com/" target="_blank" rel="noopener">@jayleephotography</a>
+      </p>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>&copy; <span id="year"></span> [Your Name]</p>
+    <p>&copy; <span id="year"></span> Jay Lee Photography</p>
   </footer>
 
   <script src="script.js" defer></script>
